@@ -1,0 +1,56 @@
+/* ######################about###################### */
+.about{
+    /* width: 50%; */
+    height: 330px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.about msg-1,msg-2{
+    display: inline-block;
+}
+.about>.head>h2{
+    /* height: 100px; */
+    /* position: relative; */
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 90px;
+}
+.about>.head{
+    position: relative;
+    bottom: -134px;
+}
+.about>.msg-1{ 
+    width: 50%;
+    margin-top: 263px;
+}
+.about>.msg-1>h3{
+    font-size: 50px;
+    font-weight: 800;
+}
+.about>.msg-1>ul{
+    list-style-type: none;
+}
+.about>.msg-1>ul>li{
+    font-size: larger;
+    line-height: 40px;
+    margin-left: 32px;
+    padding-bottom: 10px;
+}
+.about>.msg-2{
+    width: 50px;
+    margin-left: 48%;
+    display: flex;
+}
+.about>.msg-2>img{
+    position: absolute;
+    top: 920px;
+    margin-left: 90px;
+}
+header>nav>ul>li:hover,header>nav>ul>li.active{
+    border-bottom: #fff 2px solid;
+    width: 70px;
+    text-align: center;
+}

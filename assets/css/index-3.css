@@ -1,0 +1,41 @@
+    /* #################services################ */
+    .services>.msg-1{
+        margin-top: 170px;
+        font-size: x-large;
+        font-weight: bolder;
+        gap: 10px;
+        padding: 10px;
+    }
+    .services{
+        margin-top: 20%;
+        margin-bottom: 40px;
+    }
+    .services>.msg-1{
+        position: absolute;
+        right: 50px;
+        height: 300px;
+    }
+    .services>.msg-1>h3{
+        font-weight: 2999px;
+        font-size: xx-large;
+        letter-spacing: -2px;
+    }
+    .services>.msg-1>h3,ul{
+        margin-top: 30px;
+    }
+    .services>.msg-1>ul>li{
+        list-style-type: none;
+        gap: 10px;
+        line-height: 30px;
+        letter-spacing: -2px;
+        margin-left: 32px;
+        padding-bottom: 15px;
+    }
+    .services>.msg-2>img{
+        margin-top: 120px;
+    }
+svg{
+        justify-content: space-around;
+        position: absolute;
+        left: 2px;
+    }
